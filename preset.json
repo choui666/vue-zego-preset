@@ -1,0 +1,21 @@
+{
+    "useConfigFiles": true,
+    "plugins": {
+      "@vue/cli-plugin-babel": {},
+      "@vue/cli-plugin-typescript": {
+        "classComponent": true,
+        "tsLint": true,
+        "lintOn": [
+          "save"
+        ],
+        "useTsWithBabel": true
+      },
+      "@vue/cli-plugin-pwa": {},
+      "@vue/cli-plugin-unit-mocha": {},
+      "@vue/cli-plugin-e2e-cypress": {}
+    },
+    "router": true,
+    "routerHistoryMode": true,
+    "vuex": true,
+    "cssPreprocessor": "less"
+  }
